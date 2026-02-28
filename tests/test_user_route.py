@@ -1,7 +1,5 @@
 import unittest
 from unittest.mock import patch, MagicMock
-from flask import Flask, jsonify
-from route.user_route import user_bp
 
 class TestUserRoute(unittest.TestCase):
     def setUp(self):
