@@ -28,3 +28,6 @@ config.py
 
 # Migrations
 migrations/
+
+.coverage
+htmlcov/
